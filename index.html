@@ -1,18 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
-            <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
 <body>
+    
+            <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                <div class="container">
+                <a href="#" class="navbar-brand">John Blackshear</a>
+                
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                </div>
+            
+                
+        
+        </nav>
+     
+
     <div class="container">
+        <div class="row">
+            <div class="col-md 8"></div>
+        </div>
         <div id="main-container">
-        <div id="main-section">
         <div class="row">
             <div class="col-md 8">
                 <div class="row-md 8"><h1>About Me</h1></div>
                 <div class="row-md 8">
-                    <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
+               <img class="profile-img" src="assets/images/cat.jpg" class="img-responsive">
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac 
                     rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin 
@@ -29,18 +49,77 @@
                             rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin 
                             vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo 
                             purus vitae sollicitudin consectetur.</p>
-        
+                </div>
                 </div>
             </div>
         </div>
-        </div>
-        </div>
-        <div class="row">
+    </div>
+    <div class="row">
             <div class= "col-md 12">
                 <footer>© copyright</footer>
             </div>
         </div>
-    </div>
 </body>
+<style>
+    .profile-img{
+        float: left;
+        padding-top: 10px;
+        padding-right: 25px;
+        height: 200px;
+    }
 
+    h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #dddddd;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif3
+    }
+
+    body{
+        background: url("assets/images/concrete_seamless.png");
+       
+    }
+
+    #main-container{
+        background-color: #ffffff;
+        padding: 20px;
+        line-height: 2;
+        border: 1px solid #dddddd;
+        margin-bottom: 50px;
+
+    }
+
+    footer{
+        text-align: center;
+        background-color: #ffffff;
+        position: relative;
+        bottom: 0;
+        background-color: #666666;
+        border-top:8px solid #4aaaa5;
+        height: 50px;
+        color: #cccccc;
+    }
+
+    /*li.nav-item{
+        box-sizing: border-box;
+        margin: 10px;
+    }*/
+
+    .navbar{
+        margin-bottom: 30px;
+        border-bottom: 2px solid #cccccc;
+    }
+
+    .navbar-light .navbar-brand{
+        background-color: #4aaaa5;
+        padding: 20px;
+        font-family: Georgia, Times, "Times New Roman", serif;
+        font-weight: 700;
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+</style>
 </html>
